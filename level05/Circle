@@ -27,14 +27,14 @@ public class Circle
         this.centerX = centerX;
         this.centerY = centerY;
         this.radius = radius;
-        this.weight = weight;
+        this.width = width;
     }
     
     public Circle(int centerX, int centerY, int radius, int weight){
         this.centerX = centerX;
         this.centerY = centerY;
         this.radius = radius;
-        this.weight = weight;
+        this.width = width;
     }
 }
 
