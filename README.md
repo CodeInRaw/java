@@ -1,4 +1,4 @@
-javarush
+java
 ========
 
-javarush projects
+java projects
