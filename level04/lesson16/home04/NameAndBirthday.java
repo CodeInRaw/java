@@ -15,7 +15,6 @@ public class Solution
 {
     public static void main(String[] args)   throws Exception
     {
-        //Напишите тут ваш код
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         System.out.println("Input name:");
         String name = reader.readLine();
