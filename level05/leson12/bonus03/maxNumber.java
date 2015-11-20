@@ -23,9 +23,11 @@ public class Solution
     }
 
     public static int max(int N) throws Exception{
-        int max = 0;
+        //int max = 0;
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        for (int i=N; i>0; i--){
+        int max = Integer.parseInt(reader.readLine()); //first number
+        // numbers from 1 to 9
+        for (int i=N; i>1; i--){
             int num = Integer.parseInt(reader.readLine());
             max = max > num ? max : num;
         }
